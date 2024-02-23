@@ -1,0 +1,10 @@
+
+/assets
+/index.html
+/mix-manifest.json
+/node_modules
+package-lock.json
+package.json
+parks.min.css
+readme.md
+webpack.mix.js
