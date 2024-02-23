@@ -1,4 +1,3 @@
-
 /assets*
 /index.html
 mix-manifest.json
@@ -8,4 +7,3 @@ package.json
 parks.min.css
 readme.md
 webpack.mix.js
-
