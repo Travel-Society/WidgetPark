@@ -63,7 +63,7 @@
         color: var(--park-aside-text);
         h2{
             color: var(--park-aside-text) !important;
-            font-weight: 500;
+            font-weight:  revert!important;
             font-size: 30px;
         }
         p{
@@ -211,127 +211,17 @@
     /*content park  cards
     ==========================================================================*/
 
-    .card-park{
-        min-width: 33%;
-        height: auto;
-        background-color: #f8f8f87a;
-        border-radius: 4px;
-        padding: 15px 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        
-        &:hover {
-          cursor: pointer; /* Cambia el cursor a tipo puntero */
-          /* Aquí puedes añadir otros estilos que quieras aplicar en el hover, como cambio de color de fondo, sombra, etc. */
-        }
-        img{
-            max-width: 70%;
-            margin-bottom: 15px;
-        }
-        .park-prices{
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            justify-content: space-around;
-            div{
-           
-                span{
-                    display: block;
-
-                    font-weight: 700;
-                    font-size: 14px;
-                }
-                .pricing{
-                    font-size: 25px;
-                    color: var(--aside-park-secundary);
-                    small{
-                      font-size: 16px;
-                    }
-                }
-            }
+ 
 
 
-        }
-       
-        
 
-    }
-
-   .card-activa{
-    background-color: #efefef;
-    .pricing{
-      font-size: 25px;
-      color: var(--aside-park-primary) !important;
-       }
-       small{
-        font-size: 16px;
-       }
-   }
-
-
-    .details-park{
-      background-color: var(--aside-park-primary);
-         border-radius: 2px; padding:10px 25px;
-      h3{
-        span{
-          color: rgb(255, 255, 255);
-          font-size:  1.1em;
-        }
-      }
-      span{
-          font-size: 15px;
-            margin-bottom: 10px;
-            color: white;
-      }
-
-      p{
-        font-weight: 700;
-        color: #fff;
-      
-      }
-      .total-content{
-        margin-top: 8px;
-        font-size: 30px;
-
-        color: var(--aside-park-important);
-      }
-      
-    }
     .box-secureguarantees .cards div i {
       font-size: 25px !important;
       margin: 0 2px;
     }
 
-    /* Estilo del contenedor del checkbox */
-    .checkbox-container {
-    position: relative;
-    left: 42%;
-    
-      }
+ 
 
-      /* Ocultar el checkbox original y crear un círculo personalizado */
-      .checkbox-container input {
-    width: 38px;
-    height: 38px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 50%;
-    outline: none;
-    display: inline-block;
-    border: 1px solid #ddd;
-    cursor: pointer;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center center;
-      }
 
-      /* Estilo cuando está chequeado */
-      .checkbox-container input:checked {
-          background-color: var(--aside-park-primary);
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");
-          background-size: 18px 18px; /* Establece el tamaño de la imagen de fondo */
-          background-repeat: no-repeat; /* Evita que la imagen se repita */
-          background-position: center; }
+
+  
