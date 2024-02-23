@@ -1,3 +1,0 @@
--repositorio en git
--agregar laravel mix
--importar styles
