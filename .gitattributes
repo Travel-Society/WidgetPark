@@ -1,4 +1,4 @@
-/assets*
+/assets/*
 /index.html
 mix-manifest.json
 /node_modules
