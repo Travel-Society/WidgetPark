@@ -211,14 +211,35 @@
     /*content park  cards
     ==========================================================================*/
 
- 
-
-
 
     .box-secureguarantees .cards div i {
       font-size: 25px !important;
       margin: 0 2px;
     }
+
+    /* media querys */
+
+    #widgetPark{
+      position: relative;
+        bottom: 140px;
+        z-index: 5; 
+      width: 30%;
+          }
+      
+      @media screen and (max-width: 750px) {
+          #widgetPark{
+            width: 80% !important ;
+        bottom: 90px !important;
+          }
+      
+      }
+    
+      @media screen and (max-width: 650px) {
+      #widgetPark{
+            bottom: 35px !important;
+          }  
+       }
+
 
  
 
