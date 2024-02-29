@@ -70,7 +70,9 @@ let validadorFormulario = {
         this.formulario,
         this.message,
         this.lang,
-        event
+        event,
+        this.btncolor,
+        this.bgcolor
       );
     }
   },

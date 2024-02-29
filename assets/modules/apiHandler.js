@@ -11,12 +11,14 @@ let getData = (url, callback) => {
     .catch((error) => console.error("Error:", error));
 };
 
-let sendData = (father, origen, idaff, formulario, message, lang, event) => {
+let sendData = (father, origen, idaff, formulario, message, lang, event, btnColor ,bgColor) => {
   event.preventDefault();
   document.getElementById("sitioOrigen").value = origen;
   document.getElementById("postWidget").value = "send";
   document.getElementById("idaff").value = idaff;
   const formData = new FormData(formulario);
+  formData.append("bgColor", bgColor);
+  formData.append("btnColor", btnColor);
 
   fetch(`${father}handlers/ParksHdl.php`, {
     method: "POST",
